@@ -1,0 +1,25 @@
+# Grasp id range, object
+
+10-19, coupling
+20-29, valve_holes
+30-33, cordless_drill, top grasp
+34-36, cordless_drill, side grasp
+37-39, cordless_drill, handle grasp for right hand on mirror object
+40-49, brake_pedal
+50-59, steering_wheel
+60-69, parking
+70-79, roll_bar_corner
+80-89, roll_bar_single
+90-99, roll_bar_tube_align
+100-109, roll_bar_tube_alignz
+110-119, roll_bar_tube
+120-129, throttle
+130-139, QUAL_valve
+140-149, nozzle
+150-159, 2x4x36
+160-169, 4x4x24
+170-179, DRC_drill
+180-189, doorhandle
+190-199, wye
+200-209, valve
+210-219, DRC_wall_task
