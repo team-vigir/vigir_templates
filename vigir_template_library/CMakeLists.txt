@@ -19,3 +19,9 @@ catkin_package(
 include_directories(
   ${catkin_INCLUDE_DIRS}
 )
+
+install(PROGRAMS
+    src/graspit_mm_to_m.py
+    src/right_to_left.py
+    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
