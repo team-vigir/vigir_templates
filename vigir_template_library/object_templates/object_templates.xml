@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <templatelibrary>
-    <template template_name="coupling" template_type="1" >
+    <template template_name="coupling_hexagon" template_type="1" group="hose">
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_templates/hose/coupling_hexagon.ply"/>
@@ -26,7 +26,7 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="valve_holes" template_type="2" >
+    <template template_name="valve_holes" template_type="2" group="valve">
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_templates/valve/valve_holes.ply"/>
@@ -52,7 +52,7 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="cordless_drill" template_type="3" >
+    <template template_name="cordless_drill" template_type="3" group="tools">
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_templates/tools/cordless_drill.ply"/>
@@ -78,7 +78,7 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="2x4x36" template_type="15" >
+    <template template_name="2x4x36" template_type="15" group="debris">
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_templates/debris/2x4x36.ply"/>
@@ -104,10 +104,10 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="DRC_drill" template_type="17" >
+    <template template_name="DRC_drill" template_type="17" group="tools">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/tools/debris/DRC_drill.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/tools/DRC_drill.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
