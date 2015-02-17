@@ -45,10 +45,7 @@
         <usability id="0">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <usability id="1">
-            <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-        </usability>
-        <affordance id="0" type="cartesian" axis="y" distance="0.05">
+        <affordance id="0" type="circular" axis="x">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
