@@ -37,15 +37,4 @@ install(DIRECTORY robot_poses
 	DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
-install(FILES
-	ghost_poses.csv
-	grasp_ids.txt
-	grasp_library.grasp
-	grasp_library_hook.grasp
-	grasp_library_irobot.grasp
-	grasp_library_robotiq.grasp
-	grasp_templates.txt
-	DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-	
-)
 
