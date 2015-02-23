@@ -81,6 +81,38 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
+    <template template_name="cutting_tool" template_type="4" group="tools">
+        <visual>
+          <geometry>
+            <mesh filename="package://vigir_template_library/object_templates/tools/cutting_tool.ply"/>
+            <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
+          </geometry>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <material name="black">
+            <color rgba="0.0 0.0 0.0 1"/>
+          </material>
+        </visual>
+        <inertial>
+          <mass value="0.7"/>
+          <origin xyz="0 0 0"/>
+          <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+        </inertial>
+        <usability id="0">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <usability id="1">
+            <pose xyz="0 0.15 0.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <affordance id="0" type="cartesian" axis="z" distance="0.05">
+            <pose xyz="0 0.5 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="1" type="cartesian" axis="y" distance="-0.30">
+            <pose xyz="0.0 -0.30 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="2" name="open" type="circular" axis="x" distance="90">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+    </template>
     <template template_name="2x4x36" template_type="15" group="debris">
         <visual>
           <geometry>
