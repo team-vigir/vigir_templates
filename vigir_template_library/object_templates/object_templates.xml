@@ -113,6 +113,35 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
+    <template template_name="QUAL_valve" template_type="5" group="valve">
+        <visual>
+          <geometry>
+            <mesh filename="package://vigir_template_library/object_templates/valve/QUAL_valve.ply"/>
+            <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
+          </geometry>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <material name="black">
+            <color rgba="0.0 0.0 0.0 1"/>
+          </material>
+        </visual>
+        <inertial>
+          <mass value="0.7"/>
+          <origin xyz="0 0 0"/>
+          <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+        </inertial>
+        <usability id="0">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <affordance id="0" name="open" type="circular" axis="x" distance="360">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="1" name="close" type="circular" axis="x" distance="-360">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="2" name="push" type="cartesian" axis="x" distance="0.10">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+    </template>
     <template template_name="2x4x36" template_type="15" group="debris">
         <visual>
           <geometry>
@@ -143,6 +172,32 @@
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_templates/tools/DRC_drill.ply"/>
+            <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
+          </geometry>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <material name="black">
+            <color rgba="0.0 0.0 0.0 1"/>
+          </material>
+        </visual>
+        <inertial>
+          <mass value="0.7"/>
+          <origin xyz="0 0 0"/>
+          <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+        </inertial>
+        <usability id="0">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <usability id="1">
+            <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <affordance id="0" type="cartesian" axis="y" distance="0.05">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+    </template>
+    <template template_name="steering_wheel" template_type="18" group="vehicle">
+        <visual>
+          <geometry>
+            <mesh filename="package://vigir_template_library/object_templates/vehicle/steering_wheel.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
