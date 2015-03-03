@@ -59,7 +59,7 @@
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_templates/tools/cordless_drill.ply"/>
-            <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
+            <boundingbox min="-0.14 -0.076 -0.12" max="0.03 0.15 0.12" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
           <material name="black">
