@@ -22,7 +22,7 @@
         <usability id="1">
             <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" type="cartesian" axis="y" distance="0.05">
+        <affordance id="0" type="cartesian" axis="y" displacement="0.05">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
@@ -45,13 +45,13 @@
         <usability id="0">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" name="open" type="circular" axis="x" distance="360">
+        <affordance id="0" name="open" type="circular" axis="x" displacement="360">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-        <affordance id="1" name="close" type="circular" axis="x" distance="-360">
+        <affordance id="1" name="close" type="circular" axis="x" displacement="-360">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-        <affordance id="2" name="push" type="cartesian" axis="x" distance="0.10">
+        <affordance id="2" name="push" type="cartesian" axis="x" displacement="0.10">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
@@ -77,7 +77,7 @@
         <usability id="1">
             <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" type="cartesian" axis="y" distance="0.05">
+        <affordance id="0" type="cartesian" axis="y" displacement="0.05">
             <pose xyz="0 0.05 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
@@ -103,13 +103,13 @@
         <usability id="1">
             <pose xyz="0 0.15 0.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" type="cartesian" axis="z" distance="0.05">
+        <affordance id="0" type="cartesian" axis="z" displacement="0.05">
             <pose xyz="0 0.5 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-        <affordance id="1" type="cartesian" axis="y" distance="-0.30">
+        <affordance id="1" type="cartesian" axis="y" displacement="-0.30">
             <pose xyz="0.0 -0.30 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-        <affordance id="2" name="open" type="circular" axis="x" distance="90">
+        <affordance id="2" name="open" type="circular" axis="x" displacement="90">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
@@ -132,13 +132,13 @@
         <usability id="0">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" name="open" type="circular" axis="x" distance="360">
+        <affordance id="0" name="open" type="circular" axis="x" displacement="360">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-        <affordance id="1" name="close" type="circular" axis="x" distance="-360">
+        <affordance id="1" name="close" type="circular" axis="x" displacement="-360">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-        <affordance id="2" name="push" type="cartesian" axis="x" distance="0.10">
+        <affordance id="2" name="push" type="cartesian" axis="x" displacement="0.10">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
@@ -164,7 +164,7 @@
         <usability id="1">
             <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" type="cartesian" axis="y" distance="0.05">
+        <affordance id="0" type="cartesian" axis="y" displacement="0.05">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
@@ -190,7 +190,7 @@
         <usability id="1">
             <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" type="cartesian" axis="y" distance="0.05">
+        <affordance id="0" type="cartesian" axis="y" displacement="0.05">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
@@ -216,7 +216,7 @@
         <usability id="1">
             <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" type="cartesian" axis="y" distance="0.05">
+        <affordance id="0" type="cartesian" axis="y" displacement="0.05">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
