@@ -54,7 +54,7 @@
     </grasps>
     <grasps template_name="cordless_drill" template_type="3" >
         <grasp id="1030">
-            <final_pose x="0.0005" y="-0.0732" z="0.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <final_pose x="0.0" y="-0.1" z="-0.01" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
             <approaching_vector x="0.0" y="1.0" z="0.0" desired="0.20" minimal="0.05"/>
             <pre_grasp_posture>
                 <!-- This joint names should match URDF-->
