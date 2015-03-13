@@ -142,6 +142,36 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
+    <template template_name="cutting_wall" template_type="6" group="debris">
+        <visual>
+          <geometry>
+            <mesh filename="package://vigir_template_library/object_templates/debris/cutting_wall.ply"/>
+            <boundingbox min="-0.005 -0.45 -0.30" max="0.005 0.45 0.30" />
+          </geometry>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <material name="black">
+            <color rgba="0.0 0.0 0.0 1"/>
+          </material>
+        </visual>
+        <inertial>
+          <mass value="0.7"/>
+          <origin xyz="0 0 0"/>
+          <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+        </inertial>
+        <usability id="0">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <affordance id="0" name="cut_square" type="cartesian" axis="x" displacement="0.10" keeporientation="true">
+            <pose xyz="0  0.15  0.15" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="0 -0.15  0.15" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="0 -0.15 -0.15" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="0  0.15 -0.15" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="0  0.15  0.15" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="1" name="cut_circle" type="circular" axis="x" displacement="360"  keeporientation="true">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+    </template>
     <template template_name="2x4x36" template_type="15" group="debris">
         <visual>
           <geometry>
