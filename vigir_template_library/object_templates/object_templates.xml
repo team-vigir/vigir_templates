@@ -185,7 +185,7 @@
         <affordance id="4" name="cut_circle" type="circular" axis="x" displacement="360"  keeporientation="true">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-        <affordance id="5" name="cut_square" type="circular" axis="x" displacement="360"  keeporientation="true">
+        <affordance id="5" name="cut_square" type="cartesian" axis="x" displacement="0.10"  keeporientation="false">
             <pose xyz="0  0.15  0.15" qx="0.653"  qy="-0.27"   qz="-0.653"  qw="0.27"/>
             <pose xyz="0 -0.15  0.15" qx="0.696"  qy="-0.122"  qz="-0.696"  qw="0.122"/>
             <pose xyz="0 -0.15 -0.15" qx="0.696" qy="0.122"  qz="-0.696"   qw="-0.122"/>
