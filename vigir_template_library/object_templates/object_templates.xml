@@ -22,8 +22,17 @@
         <usability id="1">
             <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" type="cartesian" axis="y" displacement="0.05">
+        <affordance id="0" name="cat_ori" type="cartesian" axis="y" displacement="0.05">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>        
+        <affordance id="1" name="cat_90x" type="cartesian" axis="y" displacement="0.05">
+            <pose xyz="0 0 0" qx="0.7071" qy="0.0" qz="0.0" qw="0.7071"/>
+        </affordance>
+        <affordance id="2" name="cat_90y" type="cartesian" axis="y" displacement="0.05">
+            <pose xyz="0 0 0" qx="0.0" qy="0.7071" qz="0.0" qw="0.7071"/>
+        </affordance>
+        <affordance id="3" name="cat_90z" type="cartesian" axis="y" displacement="0.05">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.7071" qw="0.7071"/>
         </affordance>
     </template>
     <template template_name="valve_holes" template_type="2" group="valve">
@@ -161,15 +170,27 @@
         <usability id="0">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" name="cut_square" type="cartesian" axis="x" displacement="0.10" keeporientation="true">
-            <pose xyz="0  0.15  0.15" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-            <pose xyz="0 -0.15  0.15" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-            <pose xyz="0 -0.15 -0.15" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-            <pose xyz="0  0.15 -0.15" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-            <pose xyz="0  0.15  0.15" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        <affordance id="0" name="cut_ul" type="cartesian" axis="x" displacement="0.10" keeporientation="false">
+            <pose xyz="0  0.15  0.15" qx="0.653"  qy="-0.27"   qz="-0.653"  qw="0.27"/>
         </affordance>
-        <affordance id="1" name="cut_circle" type="circular" axis="x" displacement="360"  keeporientation="true">
+        <affordance id="1" name="cut_ur" type="cartesian" axis="x" displacement="0.10" keeporientation="false">
+            <pose xyz="0 -0.15  0.15" qx="0.696"  qy="-0.122"  qz="-0.696"  qw="0.122"/>
+        </affordance>
+        <affordance id="2" name="cut_lr" type="cartesian" axis="x" displacement="0.10" keeporientation="false">
+            <pose xyz="0 -0.15 -0.15" qx="0.696" qy="0.122"  qz="-0.696"   qw="-0.122"/>
+        </affordance>
+        <affordance id="3" name="cut_ll" type="cartesian" axis="x" displacement="0.10" keeporientation="false">
+            <pose xyz="0  0.15 -0.15" qx="0.653" qy="0.27"   qz="-0.653"   qw="-0.27"/>
+        </affordance>
+        <affordance id="4" name="cut_circle" type="circular" axis="x" displacement="360"  keeporientation="true">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="5" name="cut_square" type="circular" axis="x" displacement="360"  keeporientation="true">
+            <pose xyz="0  0.15  0.15" qx="0.653"  qy="-0.27"   qz="-0.653"  qw="0.27"/>
+            <pose xyz="0 -0.15  0.15" qx="0.696"  qy="-0.122"  qz="-0.696"  qw="0.122"/>
+            <pose xyz="0 -0.15 -0.15" qx="0.696" qy="0.122"  qz="-0.696"   qw="-0.122"/>
+            <pose xyz="0  0.15 -0.15" qx="0.653" qy="0.27"   qz="-0.653"   qw="-0.27"/>
+            <pose xyz="0  0.15  0.15" qx="0.653"  qy="-0.27"   qz="-0.653"  qw="0.27"/>
         </affordance>
     </template>
     <template template_name="2x4x36" template_type="15" group="debris">
