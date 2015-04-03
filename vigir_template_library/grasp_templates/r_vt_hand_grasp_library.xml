@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<grasplibrary>
+    <grasps template_name="hose" template_type="1" >
+        <grasp id="10">
+            <final_pose x="-0.0005" y="-0.0732" z="0.0" qx="0.0" qy="1.0" qz="0.0" qw="0.0"/>
+            <approaching_vector x="0.0" y="-1.0" z="0.0" desired="0.20" minimal="0.05"/>
+            <pre_grasp_posture>
+                <!-- This joint names should match URDF-->
+                <finger idx="0">
+                    <joint name="right_f0_j1" value="0.0"/>
+                </finger>
+                <finger idx="1">
+                    <joint name="right_f1_j0" value="0.0"/>
+                </finger>
+             </pre_grasp_posture>  
+            <grasp_posture>
+                <!-- This joint names should match URDF-->
+                <finger idx="0">
+                    <joint name="right_f0_j1" value="1.22"/>
+                </finger>
+                <finger idx="1">
+                    <joint name="right_f1_j0" value="0.0"/>
+                </finger>
+            </grasp_posture>
+        </grasp>
+    </grasps>
+</grasplibrary>
