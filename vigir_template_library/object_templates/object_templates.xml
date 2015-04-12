@@ -225,10 +225,10 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
         <affordance id="2" name="push" type="cartesian" axis="x" displacement="0.1" keeporientation="true">
-            <pose xyz="0.1 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="0.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
         <affordance id="3" name="pull" type="cartesian" axis="x" displacement="-0.1" keeporientation="true">
-            <pose xyz="-0.1 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="-0.28 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
     <template template_name="door" template_type="8" group="door">
