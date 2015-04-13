@@ -277,4 +277,58 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
+
+    <template template_name="doorlever" template_type="19" group="door">
+        <visual>
+          <geometry>
+            <mesh filename="package://vigir_template_library/object_templates/door/doorlever.ply"/>
+            <boundingbox min="0 0 0" max="0 0 0" />
+          </geometry>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <material name="black">
+            <color rgba="0.0 0.0 0.0 1"/>
+          </material>
+        </visual>
+        <inertial>
+          <mass value="0.7"/>
+          <origin xyz="0 0 0"/>
+          <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+        </inertial>
+        <usability id="0">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <usability id="1">
+            <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <affordance id="0" type="cartesian" axis="y" displacement="0.05">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+    </template>
+
+     <template template_name="cordplug" template_type="20" group="hose">
+         <visual>
+           <geometry>
+             <mesh filename="package://vigir_template_library/object_templates/house/cordplug.ply"/>
+             <boundingbox min="0 0 0" max="0 0 0" />
+           </geometry>
+           <origin rpy="0 0 0" xyz="0 0 0"/>
+           <material name="black">
+             <color rgba="0.0 0.0 0.0 1"/>
+           </material>
+         </visual>
+         <inertial>
+           <mass value="0.7"/>
+           <origin xyz="0 0 0"/>
+           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+         </inertial> 
+         <usability id="0">
+             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+         </usability>
+         <usability id="1">
+             <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+         </usability>
+         <affordance id="0" type="cartesian" axis="y" displacement="0.05">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+    </template>
 </templatelibrary>
