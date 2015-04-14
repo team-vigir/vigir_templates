@@ -372,7 +372,7 @@
      <template template_name="cordplug" template_type="20" group="hose">
          <visual>
            <geometry>
-             <mesh filename="package://vigir_template_library/object_templates/house/cordplug.ply"/>
+             <mesh filename="package://vigir_template_library/object_templates/hose/cordplug.ply"/>
              <boundingbox min="0 0 0" max="0 0 0" />
            </geometry>
            <origin rpy="0 0 0" xyz="0 0 0"/>
