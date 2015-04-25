@@ -32,7 +32,7 @@
 
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="0.28"/>
+                    <joint name="right_f1_j0" value="0.0"/>
                     <joint name="right_f1_j1" value="1.13"/>
 
 
@@ -78,7 +78,7 @@
 
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="0.28"/>
+                    <joint name="right_f1_j0" value="0.0"/>
                     <joint name="right_f1_j1" value="1.13"/>
 
 
@@ -122,7 +122,7 @@
 
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="0.28"/>
+                    <joint name="right_f1_j0" value="0.0"/>
                     <joint name="right_f1_j1" value="1.13"/>
 
 
@@ -168,7 +168,7 @@
 
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="0.28"/>
+                    <joint name="right_f1_j0" value="0.0"/>
                     <joint name="right_f1_j1" value="1.13"/>
 
 
@@ -212,7 +212,7 @@
 
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="0.28"/>
+                    <joint name="right_f1_j0" value="0.0"/>
                     <joint name="right_f1_j1" value="1.13"/>
 
 
@@ -258,7 +258,7 @@
 
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="1.0"/>
+                    <joint name="right_f1_j0" value="0.0"/>
                     <joint name="right_f1_j1" value="0.3"/>
 
 
@@ -302,7 +302,7 @@
 
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="1.0"/>
+                    <joint name="right_f1_j0" value="0.13"/>
                     <joint name="right_f1_j1" value="0.3"/>
 
 
@@ -348,7 +348,7 @@
 
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="0.28"/>
+                    <joint name="right_f1_j0" value="0.0"/>
                     <joint name="right_f1_j1" value="1.13"/>
 
 
@@ -394,7 +394,7 @@
 
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="0.28"/>
+                    <joint name="right_f1_j0" value="0.0"/>
                     <joint name="right_f1_j1" value="1.13"/>
 
 
