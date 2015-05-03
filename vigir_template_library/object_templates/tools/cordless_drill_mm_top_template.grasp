@@ -1,2 +1,0 @@
-# grasp id, template id, hand, initial grasp type, finger joints (12), final grasp pose relative to template (x,y,z,qw,qx,qy,qz), pre-grasp pose relative to template (x,y,z,qw,qx,qy,qz)
-30, 3, right, spherical, finger poses:, -0.051409, 0.562534, -0.147185, 0.082420, 0.533472, -0.178734, 0.111032, 0.686364, 0.151595, -0.215962, 0.430413, 0.438424,final pose:, 18.449117, -113.788834, 364.269656, -0.018628, -0.229930, 0.968797, 0.090654,pre-grasp:,18.384390, -131.106815, 360.979830, -0.015851, -0.187006, 0.979488, 0.073357
