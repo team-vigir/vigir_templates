@@ -33,9 +33,15 @@
     </template>
     <template template_name="QUAL_valve" template_type="5" >
         <standpose id="0" >
+            <pose xyz="-0.5 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1" >
             <pose xyz="-0.6 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </standpose>
         <standpose id="1000" >
+            <pose xyz="-0.5 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1001" >
             <pose xyz="-0.6 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </standpose>
     </template>
