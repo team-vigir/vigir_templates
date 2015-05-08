@@ -115,14 +115,23 @@
         <usability id="2" name="switch">
             <pose xyz="0.02 0.015 -0.65" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" type="cartesian" axis="z" displacement="0.05">
-            <pose xyz="0 0.5 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        <affordance id="0" name="insert" type="cartesian" axis="z" displacement="0.05">
+            <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-        <affordance id="1" type="cartesian" axis="y" displacement="-0.30">
-            <pose xyz="0.0 -0.30 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        <affordance id="1" name="cut_X" type="cartesian" axis="x" displacement="0.10">
+            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-        <affordance id="2" name="open" type="circular" axis="x" displacement="90">
-            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        <affordance id="2" name="cut_Y" type="cartesian" axis="y" displacement="0.10">
+            <pose xyz="0.0 1.0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="3" name="rotate_CW" type="circular" axis="z" displacement="20">
+            <pose xyz="0 0 0" qx="0.0" qy="-0.7071" qz="0.0" qw="0.7071"/>
+        </affordance>
+        <affordance id="4" name="rotate_CCW" type="circular" axis="z" displacement="-20">
+            <pose xyz="0 0 0" qx="0.0" qy="-0.7071" qz="0.0" qw="0.7071"/>
+        </affordance>
+        <affordance id="5" name="cut_XY" type="cartesian" axis="x" displacement="0.10">
+            <pose xyz="1.0 1.0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
     <template template_name="QUAL_valve" template_type="5" group="valve">
@@ -150,11 +159,11 @@
         <affordance id="1" name="open" type="circular" axis="x" displacement="-370" keeporientation="false">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-        <affordance id="2" name="insert" type="cartesian" axis="x" displacement="-0.08" keeporientation="true">
-            <pose xyz="-0.08 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
+        <affordance id="2" name="insert" type="cartesian" axis="x" displacement="0.20" keeporientation="true">
+            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
         </affordance>
-        <affordance id="3" name="extract" type="cartesian" axis="x" displacement="-0.28" keeporientation="true">
-            <pose xyz="-0.28 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
+        <affordance id="3" name="extract" type="cartesian" axis="x" displacement="-0.20" keeporientation="true">
+            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
         </affordance>
     </template>
     <template template_name="cutting_wall" template_type="6" group="debris">
@@ -225,10 +234,10 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
         <affordance id="2" name="push" type="cartesian" axis="x" displacement="0.1" keeporientation="true">
-            <pose xyz="0.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
         <affordance id="3" name="pull" type="cartesian" axis="x" displacement="-0.1" keeporientation="true">
-            <pose xyz="-0.28 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
     <template template_name="door" template_type="8" group="door">
