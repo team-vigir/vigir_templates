@@ -16,10 +16,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -38,10 +38,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -58,10 +58,10 @@
             </pre_grasp_posture>
             <grasp_posture>
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp-->
@@ -78,10 +78,10 @@
             </pre_grasp_posture>
             <grasp_posture>
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp-->
@@ -98,10 +98,10 @@
             </pre_grasp_posture>
             <grasp_posture>
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp-->
@@ -118,10 +118,10 @@
             </pre_grasp_posture>
             <grasp_posture>
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp-->
@@ -138,10 +138,10 @@
             </pre_grasp_posture>
             <grasp_posture>
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp-->
@@ -158,10 +158,10 @@
             </pre_grasp_posture>
             <grasp_posture>
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp-->
@@ -182,10 +182,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -204,10 +204,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -226,10 +226,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -248,10 +248,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -270,10 +270,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -292,10 +292,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -316,10 +316,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -336,10 +336,10 @@
             </pre_grasp_posture>
             <grasp_posture>
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp-->
@@ -380,10 +380,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -400,10 +400,10 @@
             </pre_grasp_posture>
             <grasp_posture>
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp-->
@@ -444,10 +444,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -464,10 +464,10 @@
             </pre_grasp_posture>
             <grasp_posture>
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp-->
@@ -508,10 +508,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -530,10 +530,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -552,10 +552,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -574,10 +574,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -594,10 +594,10 @@
             </pre_grasp_posture>
             <grasp_posture>
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp-->
@@ -618,10 +618,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -640,10 +640,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -662,10 +662,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -684,10 +684,10 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="l_f0_j0" value="2.76"/>
+                    <joint name="l_f0_j0" value="2.685"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="l_f1_j0" value="2.76"/>
+                    <joint name="l_f1_j0" value="2.685"/>
                 </finger>
             </grasp_posture>
         </grasp>
