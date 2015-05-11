@@ -20,10 +20,6 @@
     </template>
     <template template_name="doorhandle" template_type="7" >
         <standpose id="0" >
-            <pose xyz="-0.75 0.00 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-            <zone radius="1.0"/>
-        </standpose>
-        <standpose id="1" >
             <pose xyz="-0.75 0.35 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
             <zone radius="1.0"/>
         </standpose>
