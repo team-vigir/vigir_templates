@@ -110,10 +110,10 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
         <usability id="1" name="bit">
-            <pose xyz="0 0 0.15" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="0 0 0.138" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
         <usability id="2" name="switch">
-            <pose xyz="0.02 0.015 -0.65" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="0.027 0.0225 -0.06" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
         <affordance id="0" name="insert" type="cartesian" axis="z" displacement="0.05">
             <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
