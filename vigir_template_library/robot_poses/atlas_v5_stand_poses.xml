@@ -40,11 +40,11 @@
     </template>
     <template template_name="wall_pattern" template_type="9" >
         <standpose id="0" >
-            <pose xyz="-0.75 0.80 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="-0.85 0.0 -0.45" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
             <zone radius="1.0"/>
         </standpose>
         <standpose id="1000" >
-            <pose xyz="-0.75 0.45 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="-0.85 0.0 -0.45" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
             <zone radius="1.0"/>
         </standpose>
     </template>
