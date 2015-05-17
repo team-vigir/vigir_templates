@@ -91,10 +91,38 @@
     </template>
     <template template_name="wall_pattern" template_type="9" >
         <standpose id="0" >
-            <pose xyz="-0.5 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="-0.5 0 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </standpose>
         <standpose id="1000" >
-            <pose xyz="-0.5 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="-0.5 0 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="cable_socket" template_type="21" >
+        <standpose id="0" > <!-- 0° -->
+            <pose xyz="-0.6 0 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1" > <!-- 20° -->
+            <pose xyz="-0.4 0.2 -0.2" qx="0.0" qy="0.0" qz="-0.174" qw="0.985"/>
+        </standpose>
+        <standpose id="2" > <!-- 45° -->
+            <pose xyz="-0.4 0.2 -0.2" qx="0.0" qy="0.0" qz="-0.383" qw="0.924"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.6 0 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1001" >
+            <pose xyz="-0.4 -0.2 -0.2" qx="0.0" qy="0.0" qz="0.174" qw="0.985"/>
+        </standpose>
+        <standpose id="1002" >
+            <pose xyz="-0.4 -0.2 -0.2" qx="0.0" qy="0.0" qz="0.383" qw="0.924"/>
+        </standpose>
+    </template>
+    <template template_name="steps" template_type="22" >
+        <standpose id="0" >
+            <pose xyz="-0.5 0 0.8" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.5 0 0.7" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </standpose>
     </template>
 </standposeslibrary>

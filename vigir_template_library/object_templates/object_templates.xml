@@ -451,4 +451,46 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
+
+    <template template_name="cable_socket" template_type="21" group="hose">
+         <visual>
+           <geometry>
+             <mesh filename="package://vigir_template_library/object_templates/hose/cable_socket.ply"/>
+             <boundingbox min="0 0 0" max="0 0 0" />
+           </geometry>
+           <origin rpy="0 0 0" xyz="0 0 0"/>
+           <material name="black">
+             <color rgba="0.0 0.0 0.0 1"/>
+           </material>
+         </visual>
+         <inertial>
+           <mass value="0.5"/>
+           <origin xyz="0 0 0"/>
+           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+         </inertial> 
+         <usability id="0" name="origin">
+             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+         </usability>
+    </template>
+
+    <template template_name="steps" template_type="22" group="debris">
+         <visual>
+           <geometry>
+             <mesh filename="package://vigir_template_library/object_templates/debris/steps.ply"/>
+             <boundingbox min="0 0 0" max="0 0 0" />
+           </geometry>
+           <origin rpy="0 0 0" xyz="0 0 0"/>
+           <material name="black">
+             <color rgba="0.0 0.0 0.0 1"/>
+           </material>
+         </visual>
+         <inertial>
+           <mass value="10"/>
+           <origin xyz="0 0 0"/>
+           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+         </inertial> 
+         <usability id="0" name="origin">
+             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+         </usability>
+    </template>
 </templatelibrary>
