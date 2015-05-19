@@ -119,10 +119,10 @@
     </template>
     <template template_name="steps" template_type="22" >
         <standpose id="0" >
-            <pose xyz="-0.5 0 0.8" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="-0.5 0 0.87" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </standpose>
         <standpose id="1000" >
-            <pose xyz="-0.5 0 0.7" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="-0.5 0 0.88" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </standpose>
     </template>
 </standposeslibrary>
