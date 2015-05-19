@@ -239,6 +239,12 @@
         <affordance id="3" name="pull" type="cartesian" axis="x" displacement="-0.1" keeporientation="true">
             <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
+        <affordance id="4" name="Down" type="cartesian" axis="z" displacement="-0.05" keeporientation="true">
+            <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="5" name="Up" type="cartesian" axis="z" displacement="0.05" keeporientation="true">
+            <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
     </template>
     <template template_name="door" template_type="8" group="door">
         <visual>
