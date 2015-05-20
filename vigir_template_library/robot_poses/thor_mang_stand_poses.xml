@@ -51,7 +51,7 @@
             <pose xyz="-0.6 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </standpose>
     </template>
-    <template template_name="doorhandle" template_type="7" >
+    <template template_name="doorhandle_left" template_type="7" >
         <standpose id="0" >
             <pose xyz="-0.6 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </standpose>

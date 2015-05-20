@@ -18,7 +18,21 @@
             <pose xyz="-0.75 -0.5 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </standpose>
     </template>
-    <template template_name="doorhandle" template_type="7" >
+    <template template_name="doorhandle_left" template_type="7" >
+        <standpose id="0" >
+            <pose xyz="-0.75 0.35 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <zone radius="1.0"/>
+        </standpose>
+        <standpose id="1" >
+            <pose xyz="-0.81 -0.32 0.20" qx="1.0" qy="0.0" qz="0.0" qw="0.0"/>
+            <zone radius="1.0"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.75 -0.35 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <zone radius="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="doorhandle_right" template_type="10" >
         <standpose id="0" >
             <pose xyz="-0.75 0.35 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
             <zone radius="1.0"/>
@@ -34,7 +48,7 @@
     </template>
     <template template_name="door" template_type="8" >
         <standpose id="0" >
-            <pose xyz="0.65 0.50 0.87" qx="0.0" qy="0.0" qz="0.7071" qw="0.7071"/>
+            <pose xyz="-0.86 0.46 0.88" qx="0.0" qy="0.0" qz="0.7071" qw="0.7071"/>
             <zone radius="1.0"/>
         </standpose>
         <standpose id="1" >
