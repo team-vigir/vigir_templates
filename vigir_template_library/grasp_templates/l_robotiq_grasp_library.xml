@@ -286,14 +286,14 @@
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="left_f0_j1" value="0.3"/>
+                    <joint name="left_f0_j1" value="1.22"/>
                 </finger>
                 <finger idx="1">
                     <joint name="left_f1_j0" value="0.0"/>
-                    <joint name="left_f1_j1" value="0.3"/>
+                    <joint name="left_f1_j1" value="1.13"/>
                 </finger>
                 <finger idx="2">
-                    <joint name="left_f2_j1" value="0.3"/>
+                    <joint name="left_f2_j1" value="1.13"/>
                 </finger>
             </grasp_posture>
         </grasp>
