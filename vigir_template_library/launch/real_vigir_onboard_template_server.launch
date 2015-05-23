@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <node name="vigir_onboard_template_nodelet" pkg="vigir_ocs_template_nodelet" type="template_nodelet" respawn="true"> <!--output="screen" launch-prefix="xterm -e gdb " > -->
+        <remap from="/template/template_match_feedback" to="/grasp_control/template_selection" />
+        <param name="master_mode" type="bool" value="false" /> <!--     Server mode "SLAVE"-->
+    </node>
+
+</launch>

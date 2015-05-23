@@ -36,5 +36,9 @@ install(DIRECTORY object_templates
 install(DIRECTORY robot_poses
 	DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
+install(DIRECTORY launch
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+
 
 
