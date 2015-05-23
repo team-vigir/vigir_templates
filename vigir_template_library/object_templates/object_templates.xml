@@ -303,7 +303,7 @@
         <usability id="0">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" name="turnCW" type="circular" axis="x" displacement="60" keeporientation="false">
+        <affordance id="0" name="turnCW" type="circular" axis="x" displacement="60" keeporientation="false" pitch="0.025">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
         <affordance id="1" name="turnCCW" type="circular" axis="x" displacement="-60" keeporientation="false">
