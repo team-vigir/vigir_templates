@@ -434,7 +434,10 @@
         <usability id="1">
             <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" type="cartesian" axis="y" displacement="0.05">
+        <affordance id="0" name="turn_right" type="circular" axis="x" displacement="45" keeporientation="true">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="1" name="turn_left" type="circular" axis="x" displacement="-45" keeporientation="true">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
@@ -545,6 +548,26 @@
            <origin xyz="0 0 0"/>
            <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
          </inertial> 
+         <usability id="0" name="origin">
+             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+         </usability>
+    </template>
+    <template template_name="polaris_drc" template_type="23" group="vehicle">
+         <visual>
+           <geometry>
+             <mesh filename="package://vigir_template_library/object_templates/vehicle/polaris_drc.ply"/>
+             <boundingbox min="0 0 0" max="0 0 0" />
+           </geometry>
+           <origin rpy="0 0 0" xyz="0 0 0"/>
+           <material name="black">
+             <color rgba="0.0 0.0 0.0 1"/>
+           </material>
+         </visual>
+         <inertial>
+           <mass value="10"/>
+           <origin xyz="0 0 0"/>
+           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+         </inertial>
          <usability id="0" name="origin">
              <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
          </usability>
