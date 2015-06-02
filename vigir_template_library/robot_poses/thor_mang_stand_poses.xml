@@ -33,10 +33,22 @@
     </template>
     <template template_name="QUAL_valve" template_type="5" >
         <standpose id="0" >
-            <pose xyz="-0.5 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="-0.690 0.504 -0.240" qx="-0.001" qy="0.091" qz="0.013" qw="0.996"/>
         </standpose>
         <standpose id="1" >
+            <pose xyz="-0.804 0.153 -0.243" qx="-0.001" qy="0.091" qz="0.013" qw="0.996"/>
+        </standpose>
+        <standpose id="2" >
+            <pose xyz="-0.5 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="3" >
             <pose xyz="-0.6 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="4" >
+            <pose xyz="-0.973 0.024 -0.243" qx="-0.066" qy="0.062" qz="0.731" qw="0.677"/>
+        </standpose>
+        <standpose id="5" >
+            <pose xyz="-0.819 0.204 -0.243" qx="-0.053" qy="0.073" qz="0.585" qw="0.806"/>
         </standpose>
         <standpose id="1000" >
             <pose xyz="-0.5 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
@@ -71,15 +83,24 @@
     </template>
     <template template_name="door" template_type="8" >
         <standpose id="0" >
-            <pose xyz="-0.639 -0.365 -0.223]" qx="0.004" qy="-0.004" qz="0.721" qw="0.693"/>
+            <pose xyz="-0.639 -0.365 -0.223" qx="0.004" qy="-0.004" qz="0.721" qw="0.693"/>
         </standpose>
         <standpose id="1000" >
-            <pose xyz="-0.665199 -0.326198 -0.187" qx="0.0" qy="0.0" qz="-0.707" qw="0.707"/>
+            <pose xyz="-0.665199 -0.326198 -0.035" qx="0.057" qy="0.059" qz="-0.689" qw="0.720"/>
         </standpose>
         <standpose id="1001" >
-            <pose xyz="-0.425 -0.412 -0.187" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <pose xyz="-0.576 -0.351 -0.035" qx="0.057" qy="0.059" qz="-0.689" qw="0.720"/>
         </standpose>
         <standpose id="1002" >
+            <pose xyz="-0.579 -0.198 -0.035" qx="0.057" qy="0.059" qz="-0.689" qw="0.720"/>
+        </standpose>
+        <standpose id="1003" >
+            <pose xyz="-0.577 -0.214 -0.035" qx="0.051" qy="0.070" qz="-0.582" qw="0.809"/>
+        </standpose>
+        <standpose id="1004" >
+            <pose xyz="-0.425 -0.412 -0.187" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1005" >
             <pose xyz="-0.535 -0.403 -0.223" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </standpose>
         
