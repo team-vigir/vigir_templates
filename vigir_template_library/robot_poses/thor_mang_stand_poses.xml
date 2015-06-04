@@ -109,13 +109,13 @@
     </template>
     <template template_name="door" template_type="8" >
         <standpose id="0" >
-            <pose xyz="-0.639 -0.365 -0.223" qx="0.004" qy="-0.004" qz="0.721" qw="0.693"/>
+            <pose xyz="-0.639 -0.465 -0.223" qx="0.004" qy="-0.004" qz="0.721" qw="0.693"/>
         </standpose>
         <standpose id="1000" >
-            <pose xyz="-0.665199 -0.326198 -0.035" qx="0.057" qy="0.059" qz="-0.689" qw="0.720"/>
+            <pose xyz="-0.665199 -0.426198 -0.035" qx="0.057" qy="0.059" qz="-0.689" qw="0.720"/>
         </standpose>
         <standpose id="1001" >
-            <pose xyz="-0.576 -0.351 -0.035" qx="0.057" qy="0.059" qz="-0.689" qw="0.720"/>
+            <pose xyz="-0.576 -0.451 -0.035" qx="0.057" qy="0.059" qz="-0.689" qw="0.720"/>
         </standpose>
         <standpose id="1002" >
             <pose xyz="-0.579 -0.198 -0.035" qx="0.057" qy="0.059" qz="-0.689" qw="0.720"/>
