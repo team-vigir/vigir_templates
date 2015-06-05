@@ -679,7 +679,7 @@
         <affordance id="1" name="turnCCW" type="circular" axis="x" displacement="-90" keeporientation="false">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-	<affordance id="3" name="pullDown" type="cartesian" axis="z" displacement="-0.05" keeporientation="true">
+        <affordance id="3" name="pullDown" type="cartesian" axis="z" displacement="-0.05" keeporientation="true">
             <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
