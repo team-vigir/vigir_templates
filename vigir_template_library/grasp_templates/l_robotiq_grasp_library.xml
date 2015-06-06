@@ -450,7 +450,7 @@
         </grasp_posture>
     </grasp>
     </grasps>
-    <grasps template_name="doorhandle_right" template_type="10" >
+    <grasps template_name="doorhandle_left" template_type="10" >
         <grasp id="1100">
             <final_pose x="-0.10" y="0.09" z="0.08" qx="0.7071" qy="0.7071" qz="0.0" qw="0.0"/>
             <approaching_vector x="0.0" y="1.0" z="0.0" desired="0.20" minimal="0.05"/>
@@ -730,34 +730,34 @@
             </grasp_posture>
         </grasp>
     </grasps>
-    <grasps template_name="cable_socket" template_type="1021" >
+    <grasps template_name="cable_socket" template_type="21" >
         <grasp id="1210">
             <final_pose x="-0.07" y="0.07" z="0.0" qx="-0.7071" qy="0.0" qz="0.7071" qw="0.0"/>
             <approaching_vector x="0.0" y="1.0" z="0.0" desired="0.15" minimal="0.05"/>
             <pre_grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="right_f0_j1" value="0.0"/>
+                    <joint name="left_f0_j1" value="0.0"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="0.0"/>
-                    <joint name="right_f1_j1" value="0.0"/>
+                    <joint name="left_f1_j0" value="0.0"/>
+                    <joint name="left_f1_j1" value="0.0"/>
                 </finger>
                 <finger idx="2">
-                    <joint name="right_f2_j1" value="0.0"/>
+                    <joint name="left_f2_j1" value="0.0"/>
                 </finger>
              </pre_grasp_posture>
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="right_f0_j1" value="1.22"/>
+                    <joint name="left_f0_j1" value="1.22"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="1.0"/>
-                    <joint name="right_f1_j1" value="1.13"/>
+                    <joint name="left_f1_j0" value="0.0"/>
+                    <joint name="left_f1_j1" value="1.13"/>
                 </finger>
                 <finger idx="2">
-                    <joint name="right_f2_j1" value="1.13"/>
+                    <joint name="left_f2_j1" value="1.13"/>
                 </finger>
             </grasp_posture>
         </grasp>
@@ -767,27 +767,27 @@
             <pre_grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="right_f0_j1" value="0.0"/>
+                    <joint name="left_f0_j1" value="0.0"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="0.0"/>
-                    <joint name="right_f1_j1" value="0.0"/>
+                    <joint name="left_f1_j0" value="0.0"/>
+                    <joint name="left_f1_j1" value="0.0"/>
                 </finger>
                 <finger idx="2">
-                    <joint name="right_f2_j1" value="0.0"/>
+                    <joint name="left_f2_j1" value="0.0"/>
                 </finger>
              </pre_grasp_posture>
             <grasp_posture>
                 <!-- This joint names should match URDF-->
                 <finger idx="0">
-                    <joint name="right_f0_j1" value="1.22"/>
+                    <joint name="left_f0_j1" value="1.22"/>
                 </finger>
                 <finger idx="1">
-                    <joint name="right_f1_j0" value="1.0"/>
-                    <joint name="right_f1_j1" value="1.13"/>
+                    <joint name="left_f1_j0" value="0.0"/>
+                    <joint name="left_f1_j1" value="1.13"/>
                 </finger>
                 <finger idx="2">
-                    <joint name="right_f2_j1" value="1.13"/>
+                    <joint name="left_f2_j1" value="1.13"/>
                 </finger>
             </grasp_posture>
         </grasp>
