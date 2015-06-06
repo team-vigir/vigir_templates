@@ -792,7 +792,4 @@
             </grasp_posture>
         </grasp>
     </grasps>
-
- [-0.076, 0.066, -0.010]
-- Rotation: in Quaternion [-0.705, -0.018, 0.709, -0.016]
 </grasplibrary>
