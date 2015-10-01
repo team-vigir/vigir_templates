@@ -1494,7 +1494,7 @@
             </grasp_posture>
         </grasp>
         <grasp id="1341">
-            <final_pose x="-0.035" y="0.0" z="0.135" qx="0.0" qy="1.0" qz="0.0" qw="0.0"/>
+            <final_pose x="0.035" y="0.0" z="0.135" qx="0.0" qy="1.0" qz="0.0" qw="0.0"/>
             <approaching_vector x="0.0" y="0.0" z="1.0" desired="0.10" minimal="0.05"/>
             <pre_grasp_posture>
                 <!-- This joint names should match URDF-->
