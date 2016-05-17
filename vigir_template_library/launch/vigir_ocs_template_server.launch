@@ -18,7 +18,7 @@
 
     <node name="vigir_onboard_template_server" pkg="vigir_object_template_server" type="object_template_server" respawn="true"> <!--output="screen" launch-prefix="xterm -e gdb " > -->
         <remap from="/template/template_selection" to="/grasp_control/template_selection" />
-        <param name="master_mode" type="bool" value="false" /> <!--     Server mode "SLAVE"-->
+        <param name="master_mode" type="bool" value="true" /> <!--     Server mode "MASTER"-->
     </node>
 
 </launch>

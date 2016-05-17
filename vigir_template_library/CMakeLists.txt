@@ -27,13 +27,13 @@ install(PROGRAMS
 )
 
 
-install(DIRECTORY grasp_templates
+install(DIRECTORY grasp_library
 	DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
-install(DIRECTORY object_templates
+install(DIRECTORY object_library
 	DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
-install(DIRECTORY robot_poses
+install(DIRECTORY robot_library
 	DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 install(DIRECTORY launch
