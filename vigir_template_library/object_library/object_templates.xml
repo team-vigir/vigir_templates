@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <templatelibrary>
-    <template template_name="fire_hose" template_type="1" group="hose">
+    <template template_name="fire_hose"        template_type="1"  group="hose"   >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/hose/fire_hose.ply"/>
@@ -47,7 +47,7 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="valve_holes" template_type="2" group="valve">
+    <template template_name="valve_holes"      template_type="2"  group="valve"  >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/valve/valve_holes.ply"/>
@@ -76,7 +76,7 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="cordless_drill" template_type="3" group="tools">
+    <template template_name="cordless_drill"   template_type="3"  group="tools"  >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/tools/cordless_drill.ply"/>
@@ -102,7 +102,7 @@
             <pose xyz="0 0.05 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="cutting_tool" template_type="4" group="tools">
+    <template template_name="cutting_tool"     template_type="4"  group="tools"  >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/tools/cutting_tool.ply"/>
@@ -146,7 +146,7 @@
             <pose xyz="1.0 1.0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="QUAL_valve" template_type="5" group="valve">
+    <template template_name="QUAL_valve"       template_type="5"  group="valve"  >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/valve/QUAL_valve.ply"/>
@@ -178,7 +178,7 @@
             <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
         </affordance>
     </template>
-    <template template_name="cutting_wall" template_type="6" group="debris">
+    <template template_name="cutting_wall"     template_type="6"  group="debris" >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/debris/cutting_wall.ply"/>
@@ -220,7 +220,7 @@
             <pose xyz="0  0.15  0.15" qx="0.653"  qy="-0.27"   qz="-0.653"  qw="0.27"/>
         </affordance>
     </template>
-    <template template_name="doorhandle_left" template_type="7" group="door">
+    <template template_name="doorhandle_left"  template_type="7"  group="door"   >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/door/doorhandle_left.ply"/>
@@ -258,45 +258,7 @@
             <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="doorhandle_right" template_type="10" group="door">
-        <visual>
-          <geometry>
-            <mesh filename="package://vigir_template_library/object_library/door/doorhandle_right.ply"/>
-            <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
-          </geometry>
-          <origin rpy="0 0 0" xyz="0 0 0"/>
-          <material name="black">
-            <color rgba="0.0 0.0 0.0 1"/>
-          </material>
-        </visual>
-        <inertial>
-          <mass value="0.7"/>
-          <origin xyz="0 0 0"/>
-          <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
-        </inertial>
-        <usability id="0">
-            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-        </usability>
-        <affordance id="0" name="turnCW" type="circular" axis="x" displacement="90" keeporientation="false">
-            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-        </affordance>
-        <affordance id="1" name="turnCCW" type="circular" axis="x" displacement="-90" keeporientation="false">
-            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-        </affordance>
-        <affordance id="2" name="push" type="cartesian" axis="x" displacement="0.1" keeporientation="true">
-            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-        </affordance>
-        <affordance id="3" name="pull" type="cartesian" axis="x" displacement="-0.1" keeporientation="true">
-            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-        </affordance>
-        <affordance id="4" name="Down" type="cartesian" axis="z" displacement="-0.05" keeporientation="true">
-            <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-        </affordance>
-        <affordance id="5" name="Up" type="cartesian" axis="z" displacement="0.05" keeporientation="true">
-            <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
-        </affordance>
-    </template>
-    <template template_name="door" template_type="8" group="door">
+    <template template_name="door"             template_type="8"  group="door"   >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/door/door.ply"/>
@@ -334,7 +296,7 @@
             <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="wall_pattern" template_type="9" group="tools">
+    <template template_name="wall_pattern"     template_type="9"  group="tools"  >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/tools/wall_pattern.ply"/>
@@ -387,7 +349,45 @@
             <pose xyz="0 0 0" qx="0.0" qy="0." qz="0.7071" qw="0.7071"/>
         </affordance>
     </template>
-    <template template_name="2x4x36" template_type="15" group="debris">
+    <template template_name="doorhandle_right" template_type="10" group="door"   >
+        <visual>
+          <geometry>
+            <mesh filename="package://vigir_template_library/object_library/door/doorhandle_right.ply"/>
+            <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
+          </geometry>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <material name="black">
+            <color rgba="0.0 0.0 0.0 1"/>
+          </material>
+        </visual>
+        <inertial>
+          <mass value="0.7"/>
+          <origin xyz="0 0 0"/>
+          <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+        </inertial>
+        <usability id="0">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <affordance id="0" name="turnCW" type="circular" axis="x" displacement="90" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="1" name="turnCCW" type="circular" axis="x" displacement="-90" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="2" name="push" type="cartesian" axis="x" displacement="0.1" keeporientation="true">
+            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="3" name="pull" type="cartesian" axis="x" displacement="-0.1" keeporientation="true">
+            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="4" name="Down" type="cartesian" axis="z" displacement="-0.05" keeporientation="true">
+            <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="5" name="Up" type="cartesian" axis="z" displacement="0.05" keeporientation="true">
+            <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+    </template>
+    <template template_name="2x4x36"           template_type="15" group="debris" >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/debris/2x4x36.ply"/>
@@ -413,7 +413,7 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="DRC_drill" template_type="17" group="tools">
+    <template template_name="DRC_drill"        template_type="17" group="tools"  >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/tools/DRC_drill.ply"/>
@@ -457,7 +457,7 @@
             <pose xyz="1.0 1.0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="steering_wheel" template_type="18" group="vehicle">
+    <template template_name="steering_wheel"   template_type="18" group="vehicle">
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/vehicle/steering_wheel.ply"/>
@@ -486,8 +486,7 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-
-    <template template_name="doorlever" template_type="19" group="door">
+    <template template_name="doorlever"        template_type="19" group="door"   >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/door/doorlever.ply"/>
@@ -522,8 +521,7 @@
             <pose xyz="-0.28 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-
-     <template template_name="cordplug" template_type="20" group="hose">
+    <template template_name="cordplug"         template_type="20" group="hose"   >
          <visual>
            <geometry>
              <mesh filename="package://vigir_template_library/object_library/hose/cordplug.ply"/>
@@ -549,8 +547,7 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-
-    <template template_name="cable_socket" template_type="21" group="hose">
+    <template template_name="cable_socket"     template_type="21" group="hose"   >
        <visual>
          <geometry>
            <mesh filename="package://vigir_template_library/object_library/hose/cable_socket.ply"/>
@@ -588,7 +585,7 @@
           <pose xyz="0 1.0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
        </affordance>
     </template>
-    <template template_name="steps" template_type="22" group="debris">
+    <template template_name="steps"            template_type="22" group="debris" >
          <visual>
            <geometry>
              <mesh filename="package://vigir_template_library/object_library/debris/steps.ply"/>
@@ -608,7 +605,7 @@
              <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
          </usability>
     </template>
-    <template template_name="polaris_drc" template_type="23" group="vehicle">
+    <template template_name="polaris_drc"      template_type="23" group="vehicle">
          <visual>
            <geometry>
              <mesh filename="package://vigir_template_library/object_library/vehicle/polaris_drc.ply"/>
@@ -628,8 +625,7 @@
              <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
          </usability>
     </template>
-
-    <template template_name="plug" template_type="24" group="tools">
+    <template template_name="plug"             template_type="24" group="tools"  >
          <visual>
            <geometry>
              <mesh filename="package://vigir_template_library/object_library/tools/plug.ply"/>
@@ -655,8 +651,7 @@
             <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
         </affordance>
     </template>
-
-    <template template_name="rope" template_type="25" group="tools">
+    <template template_name="rope"             template_type="25" group="tools"  >
          <visual>
            <geometry>
              <mesh filename="package://vigir_template_library/object_library/tools/rope.ply"/>
@@ -682,8 +677,7 @@
             <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
         </affordance>
     </template>
-
-   <template template_name="shower_handle" template_type="26" group="tools">
+    <template template_name="shower_handle"    template_type="26" group="tools"  >
          <visual>
            <geometry>
              <mesh filename="package://vigir_template_library/object_library/tools/shower_handle.ply"/>
@@ -709,8 +703,7 @@
             <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
         </affordance>
     </template>
-
-    <template template_name="switch" template_type="27" group="tools">
+    <template template_name="switch"           template_type="27" group="tools"  >
          <visual>
            <geometry>
              <mesh filename="package://vigir_template_library/object_library/tools/switch.ply"/>
@@ -739,8 +732,7 @@
             <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-
-    <template template_name="button_box" template_type="28" group="tools">
+    <template template_name="button_box"       template_type="28" group="tools"  >
          <visual>
            <geometry>
              <mesh filename="package://vigir_template_library/object_library/tools/button_box.ply"/>
@@ -766,8 +758,7 @@
             <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
         </affordance>
     </template>
-
-    <template template_name="DRC_valve" template_type="29" group="valve">
+    <template template_name="DRC_valve"        template_type="29" group="valve"  >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/valve/DRC_valve.ply"/>
@@ -799,7 +790,7 @@
             <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
         </affordance>
     </template>
-    <template template_name="broom_stick" template_type="30" group="debris">
+    <template template_name="broom_stick"      template_type="30" group="debris" >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/debris/broom_stick.ply"/>
@@ -837,7 +828,7 @@
            <pose xyz="0 1.0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
         </affordance>
     </template>
-    <template template_name="paint_roller" template_type="31" group="tools">
+    <template template_name="paint_roller"     template_type="31" group="tools"  >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/tools/paint_roller.ply"/>
@@ -878,7 +869,7 @@
            <pose xyz="0 1.0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
         </affordance>
     </template>
-    <template template_name="mini_broom" template_type="32" group="tools">
+    <template template_name="mini_broom"       template_type="32" group="tools"  >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/tools/mini_broom.ply"/>
@@ -925,7 +916,7 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="board_marker" template_type="33" group="tools">
+    <template template_name="board_marker"     template_type="33" group="tools"  >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/tools/board_marker.ply"/>
@@ -966,7 +957,7 @@
             <pose xyz="1.0 1.0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
-    <template template_name="cylinder" template_type="34" group="debris">
+    <template template_name="cylinder"         template_type="34" group="debris" >
         <visual>
           <geometry>
             <mesh filename="package://vigir_template_library/object_library/debris/cylinder.ply"/>
