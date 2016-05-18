@@ -3,7 +3,7 @@
     <template template_name="fire_hose" template_type="1" group="hose">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/hose/fire_hose.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/hose/fire_hose.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -16,10 +16,10 @@
           <origin xyz="0 0 0"/>
           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
         </inertial>
-        <usability id="0" name="origin">
+        <usability id="0">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <usability id="1" name="nozzle">
+        <usability id="1">
             <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
         <affordance id="0" name="insert" type="cartesian" axis="x" displacement="0.05" keeporientation="true">
@@ -50,7 +50,7 @@
     <template template_name="valve_holes" template_type="2" group="valve">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/valve/valve_holes.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/valve/valve_holes.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -79,7 +79,7 @@
     <template template_name="cordless_drill" template_type="3" group="tools">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/tools/cordless_drill.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/tools/cordless_drill.ply"/>
             <boundingbox min="-0.14 -0.076 -0.12" max="0.03 0.15 0.12" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -105,7 +105,7 @@
     <template template_name="cutting_tool" template_type="4" group="tools">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/tools/cutting_tool.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/tools/cutting_tool.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -149,7 +149,7 @@
     <template template_name="QUAL_valve" template_type="5" group="valve">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/valve/QUAL_valve.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/valve/QUAL_valve.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -181,7 +181,7 @@
     <template template_name="cutting_wall" template_type="6" group="debris">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/debris/cutting_wall.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/debris/cutting_wall.ply"/>
             <boundingbox min="-0.005 -0.45 -0.30" max="0.005 0.45 0.30" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -223,7 +223,7 @@
     <template template_name="doorhandle_left" template_type="7" group="door">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/door/doorhandle_left.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/door/doorhandle_left.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -261,7 +261,7 @@
     <template template_name="doorhandle_right" template_type="10" group="door">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/door/doorhandle_right.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/door/doorhandle_right.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -299,7 +299,7 @@
     <template template_name="door" template_type="8" group="door">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/door/door.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/door/door.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -337,7 +337,7 @@
     <template template_name="wall_pattern" template_type="9" group="tools">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/tools/wall_pattern.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/tools/wall_pattern.ply"/>
             <boundingbox min="-0.005 -0.45 -0.30" max="0.005 0.45 0.30" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -390,7 +390,7 @@
     <template template_name="2x4x36" template_type="15" group="debris">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/debris/2x4x36.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/debris/2x4x36.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -416,7 +416,7 @@
     <template template_name="DRC_drill" template_type="17" group="tools">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/tools/DRC_drill.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/tools/DRC_drill.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -460,7 +460,7 @@
     <template template_name="steering_wheel" template_type="18" group="vehicle">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/vehicle/steering_wheel.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/vehicle/steering_wheel.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -490,7 +490,7 @@
     <template template_name="doorlever" template_type="19" group="door">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/door/doorlever.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/door/doorlever.ply"/>
             <boundingbox min="0 0 0" max="0 0 0" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -526,7 +526,7 @@
      <template template_name="cordplug" template_type="20" group="hose">
          <visual>
            <geometry>
-             <mesh filename="package://vigir_template_library/object_library/hose/cordplug.ply"/>
+             <mesh filename="package://vigir_template_library/object_templates/hose/cordplug.ply"/>
              <boundingbox min="0 0 0" max="0 0 0" />
            </geometry>
            <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -553,7 +553,7 @@
     <template template_name="cable_socket" template_type="21" group="hose">
        <visual>
          <geometry>
-           <mesh filename="package://vigir_template_library/object_library/hose/cable_socket.ply"/>
+           <mesh filename="package://vigir_template_library/object_templates/hose/cable_socket.ply"/>
            <boundingbox min="0 0 0" max="0 0 0" />
          </geometry>
          <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -591,7 +591,7 @@
     <template template_name="steps" template_type="22" group="debris">
          <visual>
            <geometry>
-             <mesh filename="package://vigir_template_library/object_library/debris/steps.ply"/>
+             <mesh filename="package://vigir_template_library/object_templates/debris/steps.ply"/>
              <boundingbox min="0 0 0" max="0 0 0" />
            </geometry>
            <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -611,7 +611,7 @@
     <template template_name="polaris_drc" template_type="23" group="vehicle">
          <visual>
            <geometry>
-             <mesh filename="package://vigir_template_library/object_library/vehicle/polaris_drc.ply"/>
+             <mesh filename="package://vigir_template_library/object_templates/vehicle/polaris_drc.ply"/>
              <boundingbox min="0 0 0" max="0 0 0" />
            </geometry>
            <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -632,7 +632,7 @@
     <template template_name="plug" template_type="24" group="tools">
          <visual>
            <geometry>
-             <mesh filename="package://vigir_template_library/object_library/tools/plug.ply"/>
+             <mesh filename="package://vigir_template_library/object_templates/tools/plug.ply"/>
              <boundingbox min="0 0 0" max="0 0 0" />
            </geometry>
            <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -659,7 +659,7 @@
     <template template_name="rope" template_type="25" group="tools">
          <visual>
            <geometry>
-             <mesh filename="package://vigir_template_library/object_library/tools/rope.ply"/>
+             <mesh filename="package://vigir_template_library/object_templates/tools/rope.ply"/>
              <boundingbox min="0 0 0" max="0 0 0" />
            </geometry>
            <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -686,7 +686,7 @@
    <template template_name="shower_handle" template_type="26" group="tools">
          <visual>
            <geometry>
-             <mesh filename="package://vigir_template_library/object_library/tools/shower_handle.ply"/>
+             <mesh filename="package://vigir_template_library/object_templates/tools/shower_handle.ply"/>
              <boundingbox min="0 0 0" max="0 0 0" />
            </geometry>
            <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -713,7 +713,7 @@
     <template template_name="switch" template_type="27" group="tools">
          <visual>
            <geometry>
-             <mesh filename="package://vigir_template_library/object_library/tools/switch.ply"/>
+             <mesh filename="package://vigir_template_library/object_templates/tools/switch.ply"/>
              <boundingbox min="0 0 0" max="0 0 0" />
            </geometry>
            <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -743,7 +743,7 @@
     <template template_name="button_box" template_type="28" group="tools">
          <visual>
            <geometry>
-             <mesh filename="package://vigir_template_library/object_library/tools/button_box.ply"/>
+             <mesh filename="package://vigir_template_library/object_templates/tools/button_box.ply"/>
              <boundingbox min="0 0 0" max="0 0 0" />
            </geometry>
            <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -770,7 +770,7 @@
     <template template_name="DRC_valve" template_type="29" group="valve">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/valve/DRC_valve.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/valve/DRC_valve.ply"/>
             <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -802,7 +802,7 @@
     <template template_name="broom_stick" template_type="30" group="debris">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/debris/broom_stick.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/debris/broom_stick.ply"/>
             <boundingbox min="-0.52 -0.01 -0.01" max="0.52 0.01 0.01" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -840,7 +840,7 @@
     <template template_name="paint_roller" template_type="31" group="tools">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/tools/paint_roller.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/tools/paint_roller.ply"/>
             <boundingbox min="-0.52 -0.01 -0.01" max="0.52 0.01 0.01" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -881,7 +881,7 @@
     <template template_name="mini_broom" template_type="32" group="tools">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/tools/mini_broom.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/tools/mini_broom.ply"/>
             <boundingbox min="-0.52 -0.01 -0.01" max="0.52 0.01 0.01" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -928,7 +928,7 @@
     <template template_name="board_marker" template_type="33" group="tools">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/tools/board_marker.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/tools/board_marker.ply"/>
             <boundingbox min="-0.005 -0.005 -0.09" max="0.005 0.005 0.09" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -969,7 +969,7 @@
     <template template_name="cylinder" template_type="34" group="debris">
         <visual>
           <geometry>
-            <mesh filename="package://vigir_template_library/object_library/debris/cylinder.ply"/>
+            <mesh filename="package://vigir_template_library/object_templates/debris/cylinder.ply"/>
             <boundingbox min="-0.01 -0.01 -0.0618" max="0.01 0.01 0.0618" />
           </geometry>
           <origin rpy="0 0 0" xyz="0 0 0"/>

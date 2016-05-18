@@ -2,22 +2,8 @@
 
 <launch>
 
-    <rosparam file = "$(find vigir_template_library)/object_library/object_templates.xml"
-              ns   = "object_templates/ot_library"/>
-
-    <rosparam file = "$(find vigir_template_library)/robot_library/$(optenv VIGIR_ATLAS_ROBOT_TYPE atlas_v5)_stand_poses.xml"
-              ns   = "object_templates/stand_poses_library"/>
-
-    <rosparam file = "$(find vigir_template_library)/grasp_library/$(optenv VIGIR_ATLAS_RIGHT_HAND_TYPE r_stump)_grasp_library.xml"
-              ns   = "object_templates/r_hand_library"/>
-
-    <rosparam file = "$(find vigir_template_library)/grasp_library/$(optenv VIGIR_ATLAS_LEFT_HAND_TYPE l_stump)_grasp_library.xml"
-              ns   = "object_templates/l_hand_library"/>
-
-    <rosparam file="$(find vigir_template_library)/config/hand_parameters.yaml" />
-
-    <node name="vigir_onboard_template_server" pkg="vigir_object_template_server" type="object_template_server" respawn="true"> <!--output="screen" launch-prefix="xterm -e gdb " > -->
-        <remap from="/template/template_selection" to="/grasp_control/template_selection" />
+    <node name="vigir_onboard_template_nodelet" pkg="vigir_ocs_template_nodelet" type="template_nodelet" respawn="true"> <!--output="screen" launch-prefix="xterm -e gdb " > -->
+        <remap from="/template/template_match_feedback" to="/grasp_control/template_selection" />
         <param name="master_mode" type="bool" value="false" /> <!--     Server mode "SLAVE"-->
     </node>
 
