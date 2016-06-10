@@ -2,20 +2,11 @@
 
 <launch>
 
-    <rosparam file = "$(find vigir_template_library)/object_library/object_templates.xml"
-              ns   = "object_templates/ot_library"/>
-
-    <rosparam file = "$(find vigir_template_library)/robot_library/$(optenv HECTOR_ROBOT_TYPE hector_tracker)_stand_poses.xml"
-              ns   = "object_templates/stand_poses_library"/>
-
-    <rosparam file = "$(find vigir_template_library)/grasp_library/$(optenv HECTOR_HAND_0_TYPE hector_gripper)_grasp_library.xml"
-              ns   = "object_templates/l_hand_library"/>
-
-    <rosparam file="$(find vigir_template_library)/config/hand_parameters.yaml" />
+    <include file="$(find vigir_object_template_server)/launch/vigir_template_parameters.launch"/>
 
     <node name="vigir_onboard_template_server" pkg="vigir_object_template_server" type="object_template_server" respawn="true" output="screen" > <!-- launch-prefix="xterm -e gdb " > -->
         <remap from="/template/template_selection" to="/grasp_control/template_selection" />
-        <param name="master_mode" type="bool" value="false" /> <!--     Server mode "SLAVE"-->
+        <param name="master_mode" type="bool" value="false" /> <!--     Server mode "SLAVE" -->
     </node>
 
 </launch>
