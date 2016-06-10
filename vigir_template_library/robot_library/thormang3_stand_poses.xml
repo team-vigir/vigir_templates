@@ -1,0 +1,218 @@
+<?xml version="1.0" ?>
+<standposeslibrary>
+    <template template_name="coupling" template_type="1" >
+        <standpose id="0" >
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <zone radius="1.0"/>
+        </standpose>
+        <standpose id="1" >
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="2" >
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="cordless_drill" template_type="3" >
+        <standpose id="0" >
+            <pose xyz="0.5661 -0.4456 -0.31" qx="0.0024" qy="-0.0021" qz="0.8191" qw="0.5735"/>
+        </standpose>
+        <standpose id="1" >
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="2" >
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="cutting_tool" template_type="4" >
+        <standpose id="0" >
+            <pose xyz="0.4 0.6 -0.2" qx="0.0" qy="0.0" qz="0.7" qw="-0.7"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="0.4 -0.6 -0.2" qx="0.0" qy="0.0" qz="0.7" qw="0.7"/>
+        </standpose>
+    </template>
+    <template template_name="QUAL_valve" template_type="5" >
+        <standpose id="0" >
+            <pose xyz="-0.690 0.504 -0.240" qx="-0.001" qy="0.091" qz="0.013" qw="0.996"/>
+        </standpose>
+        <standpose id="1" >
+            <pose xyz="-0.804 0.153 -0.243" qx="-0.001" qy="0.091" qz="0.013" qw="0.996"/>
+        </standpose>
+        <standpose id="2" >
+            <pose xyz="-0.5 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="3" >
+            <pose xyz="-0.6 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="4" >
+            <pose xyz="-0.973 0.024 -0.243" qx="-0.066" qy="0.062" qz="0.731" qw="0.677"/>
+        </standpose>
+        <standpose id="5" >
+            <pose xyz="-0.819 0.204 -0.243" qx="-0.053" qy="0.073" qz="0.585" qw="0.806"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.5 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1001" >
+            <pose xyz="-0.6 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="DRC_valve" template_type="29" >
+        <standpose id="0" >
+            <pose xyz="-0.690 0.504 -0.240" qx="-0.001" qy="0.091" qz="0.013" qw="0.996"/>
+        </standpose>
+        <standpose id="1" >
+            <pose xyz="-0.804 0.153 -0.243" qx="-0.001" qy="0.091" qz="0.013" qw="0.996"/>
+        </standpose>
+        <standpose id="2" >
+            <pose xyz="-0.5 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="3" >
+            <pose xyz="-0.6 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="4" >
+            <pose xyz="-0.973 0.024 -0.243" qx="-0.066" qy="0.062" qz="0.731" qw="0.677"/>
+        </standpose>
+        <standpose id="5" >
+            <pose xyz="-0.819 0.204 -0.243" qx="-0.053" qy="0.073" qz="0.585" qw="0.806"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.5 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1001" >
+            <pose xyz="-0.6 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="switch" template_type="27" >
+        <standpose id="1000" >
+            <pose xyz="-0.690 0.504 -0.240" qx="-0.001" qy="0.091" qz="0.013" qw="0.996"/>
+        </standpose>
+        <standpose id="1001" >
+            <pose xyz="-0.804 0.153 -0.243" qx="-0.001" qy="0.091" qz="0.013" qw="0.996"/>
+        </standpose>
+        <standpose id="1002" >
+            <pose xyz="-0.5 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1003" >
+            <pose xyz="-0.6 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1004" >
+            <pose xyz="-0.973 0.024 -0.243" qx="-0.066" qy="0.062" qz="0.731" qw="0.677"/>
+        </standpose>
+        <standpose id="1005" >
+            <pose xyz="-0.819 0.204 -0.243" qx="-0.053" qy="0.073" qz="0.585" qw="0.806"/>
+        </standpose>
+        <standpose id="1006" >
+            <pose xyz="-0.5 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1007" >
+            <pose xyz="-0.6 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="doorhandle_left" template_type="7" >
+        <standpose id="0" >
+            <pose xyz="-0.6 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.6 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="doorhandle_right" template_type="10" >
+        <standpose id="0" >
+            <pose xyz="-0.6 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.6 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="doorlever" template_type="19" >
+        <standpose id="0" >
+            <pose xyz="-0.6 0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.6 -0.4 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="door" template_type="8" >
+        <standpose id="0" >
+            <pose xyz="-0.639 -0.465 -0.223" qx="0.004" qy="-0.004" qz="0.721" qw="0.693"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.665199 -0.426198 -0.035" qx="0.057" qy="0.059" qz="-0.689" qw="0.720"/>
+        </standpose>
+        <standpose id="1001" >
+            <pose xyz="-0.576 -0.451 -0.035" qx="0.057" qy="0.059" qz="-0.689" qw="0.720"/>
+        </standpose>
+        <standpose id="1002" >
+            <pose xyz="-0.579 -0.198 -0.035" qx="0.057" qy="0.059" qz="-0.689" qw="0.720"/>
+        </standpose>
+        <standpose id="1003" >
+            <pose xyz="-0.577 -0.214 -0.035" qx="0.051" qy="0.070" qz="-0.582" qw="0.809"/>
+        </standpose>
+        <standpose id="1004" >
+            <pose xyz="-0.425 -0.412 -0.187" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1005" >
+            <pose xyz="-0.535 -0.403 -0.223" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        
+    </template>
+    <template template_name="2x4x36" template_type="15" >
+        <standpose id="1000" >
+            <pose xyz="0.4 -0.3 -0.2" qx="0.0" qy="0.0" qz="0.7" qw="0.7"/>
+        </standpose>
+        <standpose id="0">
+            <pose xyz="-0.4 -0.3 -0.2" qx="0.0" qy="0.0" qz="0.7" qw="0.7"/>
+        </standpose>
+        <standpose id="1">
+            <pose xyz="0.4 0.3 -0.2" qx="0.0" qy="0.0" qz="-0.7" qw="0.7"/>
+        </standpose>
+        <standpose id="1001">
+            <pose xyz="-0.4 0.3 -0.2" qx="0.0" qy="0.0" qz="-0.7" qw="0.7"/>
+        </standpose>
+    </template>
+    <template template_name="wall_pattern" template_type="9" >
+        <standpose id="0" >
+            <pose xyz="-0.5 0 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.5 0 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="cable_socket" template_type="21" >
+        <standpose id="0" > <!-- 0° -->
+            <pose xyz="-0.6 0 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1" > <!-- 20° -->
+            <pose xyz="-0.4 0.2 -0.2" qx="0.0" qy="0.0" qz="-0.174" qw="0.985"/>
+        </standpose>
+        <standpose id="2" > <!-- 45° -->
+            <pose xyz="-0.4 0.2 -0.2" qx="0.0" qy="0.0" qz="-0.383" qw="0.924"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.6 0 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1001" >
+            <pose xyz="-0.4 -0.2 -0.2" qx="0.0" qy="0.0" qz="0.174" qw="0.985"/>
+        </standpose>
+        <standpose id="1002" >
+            <pose xyz="-0.4 -0.2 -0.2" qx="0.0" qy="0.0" qz="0.383" qw="0.924"/>
+        </standpose>
+    </template>
+    <template template_name="steps" template_type="22" >
+        <standpose id="0" >
+            <pose xyz="-0.5 0 0.87" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.5 0 0.88" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+    <template template_name="cylinder" template_type="34" >
+        <standpose id="0" >
+            <pose xyz="0.4 0.0 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="0.4 0.0 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
+</standposeslibrary>
