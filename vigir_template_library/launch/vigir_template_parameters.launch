@@ -8,10 +8,10 @@
     <rosparam file = "$(find vigir_template_library)/robot_library/$(optenv THOR_ROBOT_TYPE thormang3)_stand_poses.xml"
               ns   = "object_templates/stand_poses_library"/>
 
-    <rosparam file = "$(find vigir_template_library)/grasp_library/$(optenv THOR_RIGHT_HAND_TYPE r_stump)_grasp_library.xml"
+    <rosparam file = "$(find vigir_template_library)/grasp_library/$(optenv THOR_RIGHT_HAND_TYPE r_vt_hand)_grasp_library.xml"
               ns   = "object_templates/r_hand_library"/>
 
-    <rosparam file = "$(find vigir_template_library)/grasp_library/$(optenv THOR_LEFT_HAND_TYPE l_stump)_grasp_library.xml"
+    <rosparam file = "$(find vigir_template_library)/grasp_library/$(optenv THOR_LEFT_HAND_TYPE l_vt_hand)_grasp_library.xml"
               ns   = "object_templates/l_hand_library"/>
 
 </launch>
