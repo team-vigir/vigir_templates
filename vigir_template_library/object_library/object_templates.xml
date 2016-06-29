@@ -989,4 +989,33 @@
             <pose xyz="0 0 0" qx="0.0" qy="-0.7071" qz="0.0" qw="0.7071"/>
         </affordance>
     </template>
+    <template template_name="five_pipes"         template_type="35" group="debris" >
+        <visual>
+          <geometry>
+            <mesh filename="package://vigir_template_library/object_library/debris/five_pipes.ply"/>
+            <boundingbox min="-0.02 -0.01 -0.01" max="0.0 0.01 0.01" />
+          </geometry>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <material name="red">
+            <color rgba="1.0 0.0 0.0 1"/>
+          </material>
+        </visual>
+        <inertial>
+          <mass value="0.3"/>
+          <origin xyz="0 0 0"/>
+          <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+        </inertial>
+        <usability id="0" name="origin">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <affordance id="0" name="roll" type="circular" axis="x" displacement="90" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="1" name="pitch" type="circular" axis="y" displacement="90" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.7071" qw="0.7071"/>
+        </affordance>
+        <affordance id="2" name="yaw" type="circular" axis="z" displacement="90" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="-0.7071" qz="0.0" qw="0.7071"/>
+        </affordance>
+    </template>
 </templatelibrary>
