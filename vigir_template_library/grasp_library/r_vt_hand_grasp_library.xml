@@ -1512,7 +1512,7 @@
     </grasps>
     <grasps template_name="five_pipes" template_type="35" >
         <grasp id="350">
-            <final_pose x="-0.06" y="-0.07" z="0.03" qx="-0.27" qy="0.653" qz="0.27" qw="0.653"/>
+            <final_pose x="-0.135" y="0.0" z="0.0" qx="0.0" qy="0.7071" qz="0.0" qw="0.7071"/>
             <approaching_vector x="0.0" y="0.0" z="1.0" desired="0.10" minimal="0.05"/>
             <pre_grasp_posture>
                 <!-- This joint names should match URDF-->
@@ -1534,7 +1534,73 @@
             </grasp_posture>
         </grasp>
         <grasp id="351">
-            <final_pose x="0.0" y="-0.035" z="0.135" qx="0.7071" qy="-0.7071" qz="0.0" qw="0.0"/>
+            <final_pose x="-0.135" y="0.10" z="0.10" qx="0.0" qy="0.7071" qz="0.0" qw="0.7071"/>
+            <approaching_vector x="0.0" y="0.0" z="1.0" desired="0.10" minimal="0.05"/>
+            <pre_grasp_posture>
+                <!-- This joint names should match URDF-->
+                <finger idx="0">
+                    <joint name="r_f0_j0" value="0.0"/>
+                </finger>
+                <finger idx="1">
+                    <joint name="r_f1_j0" value="0.0"/>
+                </finger>
+            </pre_grasp_posture>
+            <grasp_posture>
+                <!-- This joint names should match URDF-->
+                <finger idx="0">
+                    <joint name="r_f0_j0" value="2.685"/>
+                </finger>
+                <finger idx="1">
+                    <joint name="r_f1_j0" value="2.685"/>
+                </finger>
+            </grasp_posture>
+        </grasp>
+        <grasp id="352">
+            <final_pose x="-0.135" y="0.10" z="-0.10" qx="0.0" qy="0.7071" qz="0.0" qw="0.7071"/>
+            <approaching_vector x="0.0" y="0.0" z="1.0" desired="0.10" minimal="0.05"/>
+            <pre_grasp_posture>
+                <!-- This joint names should match URDF-->
+                <finger idx="0">
+                    <joint name="r_f0_j0" value="0.0"/>
+                </finger>
+                <finger idx="1">
+                    <joint name="r_f1_j0" value="0.0"/>
+                </finger>
+            </pre_grasp_posture>
+            <grasp_posture>
+                <!-- This joint names should match URDF-->
+                <finger idx="0">
+                    <joint name="r_f0_j0" value="2.685"/>
+                </finger>
+                <finger idx="1">
+                    <joint name="r_f1_j0" value="2.685"/>
+                </finger>
+            </grasp_posture>
+        </grasp>
+        <grasp id="353">
+            <final_pose x="-0.135" y="-0.10" z="-0.10" qx="0.0" qy="0.7071" qz="0.0" qw="0.7071"/>
+            <approaching_vector x="0.0" y="0.0" z="1.0" desired="0.10" minimal="0.05"/>
+            <pre_grasp_posture>
+                <!-- This joint names should match URDF-->
+                <finger idx="0">
+                    <joint name="r_f0_j0" value="0.0"/>
+                </finger>
+                <finger idx="1">
+                    <joint name="r_f1_j0" value="0.0"/>
+                </finger>
+            </pre_grasp_posture>
+            <grasp_posture>
+                <!-- This joint names should match URDF-->
+                <finger idx="0">
+                    <joint name="r_f0_j0" value="2.685"/>
+                </finger>
+                <finger idx="1">
+                    <joint name="r_f1_j0" value="2.685"/>
+                </finger>
+            </grasp_posture>
+        </grasp>
+        <grasp id="354">
+            <final_pose x="-0.135" y="-0.10" z="0.10" qx="0.0" qy="0.7071" qz="0.0" qw="0.7071"/>
             <approaching_vector x="0.0" y="0.0" z="1.0" desired="0.10" minimal="0.05"/>
             <pre_grasp_posture>
                 <!-- This joint names should match URDF-->
