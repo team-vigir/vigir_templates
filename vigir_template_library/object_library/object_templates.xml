@@ -368,10 +368,10 @@
         <usability id="0">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </usability>
-        <affordance id="0" name="turnCW" type="circular" axis="x" displacement="90" keeporientation="false">
+        <affordance id="0" name="turnCW" type="circular" axis="x" displacement="45" keeporientation="false">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
-        <affordance id="1" name="turnCCW" type="circular" axis="x" displacement="-90" keeporientation="false">
+        <affordance id="1" name="turnCCW" type="circular" axis="x" displacement="-45" keeporientation="false">
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
         <affordance id="2" name="push" type="cartesian" axis="x" displacement="0.1" keeporientation="true">
@@ -1028,6 +1028,131 @@
         </affordance>
         <affordance id="6" name="extract" type="cartesian" axis="x" displacement="-0.05" keeporientation="true">
            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+    </template>
+    <template template_name="Demo_valve"        template_type="36" group="valve"  >
+        <visual>
+          <geometry>
+            <mesh filename="package://vigir_template_library/object_library/valve/demo_valve.ply"/>
+            <boundingbox min="-0.0760 -0.0407 -0.0030" max="0.1560 0.1407 0.2543" />
+          </geometry>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <material name="black">
+            <color rgba="0.0 0.0 0.0 1"/>
+          </material>
+        </visual>
+        <inertial>
+          <mass value="0.7"/>
+          <origin xyz="0 0 0"/>
+          <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+        </inertial>
+        <usability id="0">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <affordance id="0" name="close" type="circular" axis="x" displacement="370" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="1" name="open" type="circular" axis="x" displacement="-370" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="2" name="insert" type="cartesian" axis="x" displacement="0.05" keeporientation="true">
+            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
+        </affordance>
+        <affordance id="3" name="extract" type="cartesian" axis="x" displacement="-0.05" keeporientation="true">
+            <pose xyz="1.0 0 0" qx="0.0" qy="0.0" qz="-0.7071" qw="0.7071"/>
+        </affordance>
+    </template>
+    <template template_name="Small_valve"        template_type="37" group="valve"   >
+        <visual>
+          <geometry>
+            <mesh filename="package://vigir_template_library/object_library/valve/demo_small_valve.ply"/>
+            <boundingbox min="0 0 0" max="0 0 0" />
+          </geometry>
+          <origin rpy="0 0 0" xyz="0 0 0"/>
+          <material name="black">
+            <color rgba="0.0 0.0 0.0 1"/>
+          </material>
+        </visual>
+        <inertial>
+          <mass value="0.7"/>
+          <origin xyz="0 0 0"/>
+          <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+        </inertial>
+        <usability id="0">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <usability id="1">
+            <pose xyz="0 0.15 0.08" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </usability>
+        <affordance id="0" name="turnCW" type="circular" axis="x" displacement="90" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="1" name="turnCCW" type="circular" axis="x" displacement="-90" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="2" name="push" type="cartesian" axis="x" displacement="0.1" keeporientation="true">
+            <pose xyz="0.0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+        <affordance id="3" name="pull" type="cartesian" axis="x" displacement="-0.1" keeporientation="true">
+            <pose xyz="-0.28 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+    </template>
+    <template template_name="Demo_switch"           template_type="38" group="tools"  >
+         <visual>
+           <geometry>
+             <mesh filename="package://vigir_template_library/object_library/tools/demo_switch.ply"/>
+             <boundingbox min="0 0 0" max="0 0 0" />
+           </geometry>
+           <origin rpy="0 0 0" xyz="0 0 0"/>
+           <material name="black">
+             <color rgba="0.0 0.0 0.0 1"/>
+           </material>
+         </visual>
+         <inertial>
+           <mass value="0.5"/>
+           <origin xyz="0 0 0"/>
+           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+         </inertial> 
+         <usability id="0" name="origin">
+             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+         </usability>
+         <affordance id="0" name="turnCW" type="circular" axis="x" displacement="90" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.7071" qw="0.7071"/>
+        </affordance>
+        <affordance id="1" name="turnCCW" type="circular" axis="x" displacement="-90" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.7071" qw="0.7071"/>
+        </affordance>
+        <affordance id="2" name="pullDown" type="cartesian" axis="z" displacement="-0.05" keeporientation="true">
+            <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </affordance>
+    </template>
+    <template template_name="Demo_handle"           template_type="39" group="tools"  >
+         <visual>
+           <geometry>
+             <mesh filename="package://vigir_template_library/object_library/tools/demo_handle.ply"/>
+             <boundingbox min="0 0 0" max="0 0 0" />
+           </geometry>
+           <origin rpy="0 0 0" xyz="0 0 0"/>
+           <material name="black">
+             <color rgba="0.0 0.0 0.0 1"/>
+           </material>
+         </visual>
+         <inertial>
+           <mass value="0.5"/>
+           <origin xyz="0 0 0"/>
+           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+         </inertial> 
+         <usability id="0" name="origin">
+             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+         </usability>
+         <affordance id="0" name="turnCW" type="circular" axis="x" displacement="90" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.7071" qw="0.7071"/>
+        </affordance>
+        <affordance id="1" name="turnCCW" type="circular" axis="x" displacement="-90" keeporientation="false">
+            <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.7071" qw="0.7071"/>
+        </affordance>
+        <affordance id="2" name="pullDown" type="cartesian" axis="z" displacement="-0.05" keeporientation="true">
+            <pose xyz="0 0 1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </affordance>
     </template>
 </templatelibrary>
