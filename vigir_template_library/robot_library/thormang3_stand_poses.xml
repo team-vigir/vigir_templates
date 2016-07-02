@@ -223,4 +223,12 @@
             <pose xyz="-0.4 0.0 -0.2" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
         </standpose>
     </template>
+    <template template_name="demo_valve" template_type="36" >
+        <standpose id="0" >
+            <pose xyz="-0.525 0.261 -0.196" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+        <standpose id="1000" >
+            <pose xyz="-0.525 -0.261 -0.196" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+        </standpose>
+    </template>
 </standposeslibrary>
