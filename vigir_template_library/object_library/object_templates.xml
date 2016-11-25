@@ -1149,4 +1149,89 @@
             <pose xyz="0 0 0" qx="0.0" qy="0.0" qz="0.7071" qw="0.7071"/>
         </affordance>
     </template>
+    <template template_name="argos_stair"           template_type="40" group="debris"  >
+         <visual>
+           <geometry>
+             <mesh filename="package://vigir_template_library/object_library/debris/argos_stair.ply"/>
+             <boundingbox min="0 0 0" max="0 0 0" />
+           </geometry>
+           <origin rpy="0 0 0" xyz="0 0 0"/>
+           <material name="black">
+             <color rgba="0.0 0.0 0.0 1"/>
+           </material>
+         </visual>
+         <inertial>
+           <mass value="0.5"/>
+           <origin xyz="0 0 0"/>
+           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+         </inertial> 
+    </template>    
+    <template template_name="argo_valve"           template_type="41" group="valve"  >
+         <visual>
+           <geometry>
+             <mesh filename="package://vigir_template_library/object_library/valve/argo_valve.ply"/>
+             <boundingbox min="0 0 0" max="0 0 0" />
+           </geometry>
+           <origin rpy="0 0 0" xyz="0 0 0"/>
+           <material name="black">
+             <color rgba="0.0 0.0 0.0 1"/>
+           </material>
+         </visual>
+         <inertial>
+           <mass value="0.5"/>
+           <origin xyz="0 0 0"/>
+           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+         </inertial> 
+    </template>    
+    <template template_name="argo_obstacle"           template_type="42" group="debris"  >
+         <visual>
+           <geometry>
+             <mesh filename="package://vigir_template_library/object_library/debris/argo_obstacle.ply"/>
+             <boundingbox min="0 0 0" max="0 0 0" />
+           </geometry>
+           <origin rpy="0 0 0" xyz="0 0 0"/>
+           <material name="black">
+             <color rgba="0.0 0.0 0.0 1"/>
+           </material>
+         </visual>
+         <inertial>
+           <mass value="0.5"/>
+           <origin xyz="0 0 0"/>
+           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+         </inertial> 
+    </template>    
+    <template template_name="cup"           template_type="43" group="kitchen"  >
+         <visual>
+           <geometry>
+             <mesh filename="package://vigir_template_library/object_library/kitchen/cup.ply"/>
+             <boundingbox min="0 0 0" max="0 0 0" />
+           </geometry>
+           <origin rpy="0 0 0" xyz="0 0 0"/>
+           <material name="black">
+             <color rgba="0.0 0.0 0.0 1"/>
+           </material>
+         </visual>
+         <inertial>
+           <mass value="0.5"/>
+           <origin xyz="0 0 0"/>
+           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+         </inertial> 
+    </template>    
+    <template template_name="drill_rough"           template_type="44" group="tools"  >
+         <visual>
+           <geometry>
+             <mesh filename="package://vigir_template_library/object_library/tools/drill_rough.ply"/>
+             <boundingbox min="0 0 0" max="0 0 0" />
+           </geometry>
+           <origin rpy="0 0 0" xyz="0 0 0"/>
+           <material name="black">
+             <color rgba="0.0 0.0 0.0 1"/>
+           </material>
+         </visual>
+         <inertial>
+           <mass value="0.5"/>
+           <origin xyz="0 0 0"/>
+           <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+         </inertial> 
+    </template>
 </templatelibrary>
