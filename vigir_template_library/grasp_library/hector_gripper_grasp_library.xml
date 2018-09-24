@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<grasplibrary>
+<grasplibrary manipulator_type="hector_gripper" >
     <grasps template_name="doorhandle_left" template_type="7"  >
         <grasp id="1070">
             <final_pose x="-0.10" y="-0.05" z="0.08" qx="0.7071" qy="0.7071" qz="0.0" qw="0.0"/>

@@ -1,0 +1,13 @@
+# Manipulator types
+manipulators:
+  manipulator_1:
+    type: hector_gripper
+    palm_link: gripper_main_grasp_link
+    wrist_link: gripper_wrist_link
+    gripper_group: gripper_endeffector_group
+
+  manipulator_2:
+    type: blah_gripper
+    palm_link: blah_link
+    wrist_link: blah_wrist_link
+    gripper_group: blah_group

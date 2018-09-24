@@ -2,10 +2,12 @@
 
 <launch>
 
+    <rosparam command="load" file="$(find vigir_template_library)/grasp_library/manipulator_types.yaml" />
+
     <rosparam file = "$(find vigir_template_library)/object_library/object_templates.xml"
               ns   = "object_templates/ot_library"/>
 
     <rosparam file = "$(find vigir_template_library)/grasp_library/$(optenv THOR_RIGHT_HAND_TYPE hector_gripper)_grasp_library.xml"
-              ns   = "object_templates/r_hand_library"/>
+              ns   = "grasp_library/manipulator_1"/>
 
 </launch>
