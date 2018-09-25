@@ -106,6 +106,22 @@
                     <joint name="gripper_servo_joint" value="1.0"/>
                 </finger>
             </grasp_posture>
+        </grasp>        
+        <grasp id="1411">
+            <final_pose x="0.0" y="0.0" z="0.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <approaching_vector x="1.0" y="0.0" z="0.0" desired="0.20" minimal="0.05"/>
+            <pre_grasp_posture>
+                <!-- This joint names should match URDF-->
+                <finger idx="0">
+                    <joint name="gripper_servo_joint" value="0.0"/>
+                </finger>
+            </pre_grasp_posture>
+            <grasp_posture>
+                <!-- This joint names should match URDF-->
+                <finger idx="0">
+                    <joint name="gripper_servo_joint" value="1.0"/>
+                </finger>
+            </grasp_posture>
         </grasp>
     </grasps>
 </grasplibrary>
