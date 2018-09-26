@@ -92,7 +92,7 @@
     </grasps>    
     <grasps template_name="argo_valve"        template_type="41" >
         <grasp id="1410">
-            <final_pose x="0.0" y="0.0" z="0.1" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <final_pose x="0.0" y="0.0" z="0.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
             <approaching_vector x="1.0" y="0.0" z="0.0" desired="0.20" minimal="0.05"/>
             <pre_grasp_posture>
                 <!-- This joint names should match URDF-->
@@ -108,7 +108,7 @@
             </grasp_posture>
         </grasp>        
         <grasp id="1411">
-            <final_pose x="0.0" y="0.0" z="0.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
+            <final_pose x="0.0" y="0.0" z="0.1" qx="0.0" qy="0.0" qz="0.0" qw="1.0"/>
             <approaching_vector x="1.0" y="0.0" z="0.0" desired="0.20" minimal="0.05"/>
             <pre_grasp_posture>
                 <!-- This joint names should match URDF-->
