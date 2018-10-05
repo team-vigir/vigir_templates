@@ -2,8 +2,8 @@
 manipulators:
   manipulator_1:
     type: hector_gripper
-    palm_link: gripper_main_grasp_link
-    wrist_link: gripper_wrist_link
+    palm_link: gripper_wrist_link
+    wrist_link: gripper_roll_link
     gripper_group: gripper_endeffector_group
 
   manipulator_2:
